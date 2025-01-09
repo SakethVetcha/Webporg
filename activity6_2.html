@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HTML5 Elements Form</title>
+
+</head>
+
+<body>
+
+
+
+
+  <div style="width: 60%; margin: 0 auto;">
+
+    <h2>HTML5 Form Elements</h2>
+
+
+
+
+    <!-- Fieldset and Legend for grouping the form -->
+
+    <fieldset>
+
+      <legend><strong>Personal Information</strong></legend>
+
+     
+
+      <!-- Table to structure form elements -->
+
+      <table>
+
+        <tr>
+
+          <td><label for="name">Name:</label></td>
+
+          <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+
+        </tr>
+
+        <tr>
+
+          <td><label for="gender">Gender:</label></td>
+
+          <td>
+
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+
+            <label for="female">Female</label>
+
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td><label for="subscribe">Subscribe to Newsletter:</label></td>
+
+          <td>
+
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+            <label for="subscribe">Yes, I want to subscribe!</label>
+
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td><label for="country">Select Country:</label></td>
+
+          <td>
+
+            <select id="country" name="country" size="3">
+
+              <option value="USA">United States</option>
+
+              <option value="UK">United Kingdom</option>
+
+              <option value="India">India</option>
+
+              <option value="Australia">Australia</option>
+
+              <option value="Canada">Canada</option>
+
+            </select>
+
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td><label for="preferred-lang">Preferred Language:</label></td>
+
+          <td>
+
+            <select id="preferred-lang" name="preferred-lang">
+
+              <option value="english">English</option>
+
+              <option value="spanish">Spanish</option>
+
+              <option value="french">French</option>
+
+              <option value="german">German</option>
+
+            </select>
+
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td><label for="comments">Comments:</label></td>
+
+          <td><textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea></td>
+
+        </tr>
+
+        <tr>
+
+          <td><label for="favorite-food">Favorite Food:</label></td>
+
+          <td>
+
+            <datalist id="favorite-food">
+
+              <option value="Pizza">
+
+              <option value="Burger">
+
+              <option value="Pasta">
+
+              <option value="Sushi">
+
+            </datalist>
+
+            <input type="text" id="favorite-food-input" name="favorite-food" list="favorite-food" placeholder="Choose your favorite food">
+
+          </td>
+
+        </tr>
+
+      </table>
+
+    </fieldset>
+
+
+
+
+    <br>
+
+    <div style="text-align: center;">
+
+      <button type="submit">Submit</button>
+
+    </div>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
+
+
